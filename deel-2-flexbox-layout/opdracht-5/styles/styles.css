@@ -1,1 +1,34 @@
 /*Schrijf hier jouw CSS*/
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: red;
+}
+.main-header {
+    display: flex;
+    direction: row;
+    height: 150px;
+}
+.main-content {
+    display: flex;
+    direction: row;
+    flex-basis: 100%;
+    height: 60vh;
+    justify-content: start;
+}
+.navigation {
+    flex-basis: 20%;
+}
+.article-text {
+    flex-basis: 60%;
+}
+.aside-text {
+    flex-basis: 20%
+
+}
+.main-footer {
+    display: flex;
+    direction: row;
+    height: 150px;
+}

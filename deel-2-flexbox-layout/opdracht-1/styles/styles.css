@@ -1,1 +1,37 @@
 /*Schrijf hier jouw CSS*/
+
+.main-site {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+
+    background-color: red;
+}
+.mainheader {
+    display: flex;
+    flex-direction: row;
+    height: 15vh;
+}
+.main-content {
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+.article-text {
+    flex-basis: 60%;
+}
+.navigation {
+    flex-basis: 20%;
+}
+.extra-content {
+    flex-basis: 20%;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    height: 15vh;
+}
